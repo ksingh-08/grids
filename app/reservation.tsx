@@ -131,7 +131,7 @@ export default function ReservationsGrid() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full">
         {reservations.map((res, index) => (
           <Card key={index} className="bg-blacktext-white rounded-lg shadow-lg border border-gray-700">
-            <CardContent className="p-5 space-y-4">
+            <CardContent className="space-y-4">
               {/* Header Section */}
               <div>
                 <div className="flex items-center justify-between">
